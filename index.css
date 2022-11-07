@@ -35,7 +35,7 @@ body {
 .toy-avatar {
   justify-self: center;
   height: 12rem;
-  width: auto;
+  max-width: 192px;
 }
 
 button {
@@ -89,7 +89,7 @@ button:hover {
 }
 
 
-.input-text {
+.input-text1 {
   border-radius: 5px;
   height: 2rem;
   width: 60%;
@@ -97,3 +97,13 @@ button:hover {
   font-family: monospace;
   margin: 3px;
 }
+
+.input-text2 {
+  border-radius: 5px;
+  height: 2rem;
+  width: 60%;
+  font-size: 18px;
+  font-family: monospace;
+  margin: 3px;
+}
+
